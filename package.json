@@ -21,9 +21,9 @@
     "test": "npm run unit && npm run e2e",
     "unit": "karma start test/unit/karma.conf.js",
     "postinstall": "npm run lint:fix",
-	"patch": "npm version patch && git push origin master && git push origin --tags", // 小版本
-	"minor": "npm version minor && git push origin master && git push origin --tags", // 次版本
-	"major": "npm version major && git push origin master && git push origin --tags"  // 大版本
+	"patch": "npm version patch && git push origin master && git push origin --tags",
+	"minor": "npm version minor && git push origin master && git push origin --tags",
+	"major": "npm version major && git push origin master && git push origin --tags" 
   },
   "build": {
     "productName": "pr",
