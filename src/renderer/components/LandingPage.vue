@@ -4,7 +4,7 @@
     <main>
       <div class="left-side">
         <span class="title">
-          示例项目
+          示例项目!
         </span>
         <system-information></system-information>
       </div>
